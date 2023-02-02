@@ -11,12 +11,12 @@ Estructuras::Estructuras(string* no,int posi,int tama){
 }
 
 void Estructuras::tono(int &x){
-  x+=2;
+   x+=2;
   
-};
+}
 void Estructuras::semitono(int &y){
-y+=1;
-};
+   y+=1;
+}
 
 
 void Estructuras::print() {
@@ -28,25 +28,32 @@ void Estructuras::print() {
 void Estructuras::EscalaMayor(){
   int k=pos;
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[pos]<<endl;
 
 };
 
 
-void EscalaMenor(){
+void Estructuras::EscalaMenor(){
   int k=pos;
   cout<<notas[k]<<endl;
   tono(k);
@@ -66,27 +73,9 @@ void EscalaMenor(){
 
   }
 
-void doricar(){
-  int k=pos;
-  cout<<notas[k]<<endl;
-  tono(k);
-  cout<<notas[k]<<endl;
-  semitono(k);
-  cout<<notas[k]<<endl;
-  tono(k);
-  cout<<notas[k]<<endl;
-  tono(k);
-  cout<<notas[k]<<endl;
-  tono(k);
-  cout<<notas[k]<<endl;
-  semitono(k);
-  cout<<notas[k]<<endl;
-  tono(k);
-  cout<<notas[pos]<<endl;
- 
-}
 
-void frigia(){
+
+void Estructuras::frigia(){
   int k=pos;
   cout<<notas[k]<<endl;
   semitono(k);
@@ -105,7 +94,7 @@ void frigia(){
   cout<<notas[pos]<<endl;
 }
 
-void lidia(){
+void Estructuras::lidia(){
   int k=pos;
   cout<<notas[k]<<endl;
   tono(k);
@@ -124,7 +113,7 @@ void lidia(){
   cout<<notas[pos]<<endl;
 }
 
-void lidiaAumentada(){
+void Estructuras::lidiaAumentada(){
   int k=pos;
   cout<<notas[k]<<endl;
   tono(k);
@@ -144,7 +133,20 @@ void lidiaAumentada(){
 
 }
 
-void cromatica(){
+void Estructuras::derecha(int &x){
+      if((x+1)==12)
+        x=-1;
+      if((x+2)==12)
+        x=-2;
+      if((x+2)==13)
+        x=-2;
+    }
+
+
+  
+
+
+void Estructuras::Cromatica(){
 for(int i=0;i<=12;i++)
   cout<<notas[i];}
 
