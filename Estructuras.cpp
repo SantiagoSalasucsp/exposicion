@@ -27,6 +27,7 @@ void Estructuras::print() {
 }
 void Estructuras::EscalaMayor(){
   int k=pos;
+  cout<<"___Escala Mayor___"<<endl;
   cout<<notas[k]<<endl;
   derecha(k);
   tono(k);
@@ -49,27 +50,37 @@ void Estructuras::EscalaMayor(){
   derecha(k);
   semitono(k);
   cout<<notas[pos]<<endl;
+  cout<<"__________________"<<endl;
 
 };
 
 
 void Estructuras::EscalaMenor(){
   int k=pos;
+  cout<<"___Escala Menor___"<<endl;
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[pos]<<endl;
+  cout<<"__________________"<<endl;
 
   }
 
@@ -78,18 +89,25 @@ void Estructuras::EscalaMenor(){
 void Estructuras::frigia(){
   int k=pos;
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[pos]<<endl;
 }
@@ -97,18 +115,25 @@ void Estructuras::frigia(){
 void Estructuras::lidia(){
   int k=pos;
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[pos]<<endl;
 }
@@ -116,18 +141,25 @@ void Estructuras::lidia(){
 void Estructuras::lidiaAumentada(){
   int k=pos;
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   tono(k);
   cout<<notas[k]<<endl;
+  derecha(k);
   semitono(k);
   cout<<notas[pos]<<endl;
 
