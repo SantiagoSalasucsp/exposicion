@@ -32,7 +32,7 @@ Estructuras j(notas,Do,11);
 
 L.EscalaMenor();
 D.EscalaMayor();
-j.Cromatica();
+
 
 
 /*Transformador r3(notas,Sib,Fa);
