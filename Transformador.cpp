@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Transportar.h"
+#include "Transformador.h"
 using namespace std;
 
 Transformador::Transformador(string*no,int x,int y){
