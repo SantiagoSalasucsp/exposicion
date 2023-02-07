@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Estructuras.h"
-#include "Transportar.h"
+#include "Transformador.h"
 using namespace std;
 
 int main() {
