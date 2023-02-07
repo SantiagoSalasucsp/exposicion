@@ -1,3 +1,5 @@
+#ifndef __ESTRUCTURAS_H__
+#define __ESTRUCTURAS_H__
 #include <iostream>
 #include <string>
 using namespace std;
@@ -32,3 +34,4 @@ protected:
 
 
 };
+#endif
